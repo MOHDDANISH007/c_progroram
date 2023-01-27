@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>   
+int main()
+{
+	int num,result=1,power,i;
+	printf("\n ENTER THE NUMBER:");
+	scanf("%d",&num);
+	printf("\n ENTER THE POWER:");
+	scanf("%d",&power);
+	for(i=0;power>i;i++);
+	{
+		result=result*num;
+		printf("\n RESULT %d",result);
+	}
+	return 0;
+}
