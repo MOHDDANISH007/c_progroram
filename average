@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int math,physics,chemistry;
+	float average;
+	printf("\n ENTER THE MARKS OF MATH:");
+	scanf("%d",&math);
+	printf("\n ENTER THE MARKS OF CHEMISTRY:");
+	scanf("%d",&chemistry);
+	printf("\n ENTER THE MARKS OF PHYSICS:");
+	scanf("%d",&physics);
+	average=(float)(math+physics+chemistry)/3;
+	printf("\n THE AVEREGAE MARKS IS %0.2f",average);
+	return 0;
+	
+}
