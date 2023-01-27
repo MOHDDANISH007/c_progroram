@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int num1,num2;
+	float result;
+	char characters;
+	printf("\n ENTER THE CHARACTERS(+,-,*,/,%):");
+	scanf("%c",&characters);
+	printf("\n ENTER THE NUMBER1:");
+	scanf("%d",&num1);
+	printf("\n ENTER THE NUMBER2:");
+	scanf("%d",&num2);
+	switch(characters)
+	{
+		case '+':
+			result=num1+num2;
+			printf("\n THE RESULT IS %f",result);
+			break;
+		case '-':
+			result=num1-num2;
+			printf("\n THE RESULT IS %f",result);
+			break;
+		case '*':
+			result=num1*num2;
+			printf("\n THE RESULT IS %f",result);
+			break;
+		case '/':
+			result=num1*num2;
+			printf("\n THE RESULT IS %f",result);
+			break;
+		case '%':
+			result=num1%num2;
+			printf("\n THE RESULT IS %f",result);
+			break;
+		default:
+			printf("\n WRONG CHARACTER KEY YOU HAVE CHOOSE:");
+			break;
+	}
+	
+	return 0;
+}
